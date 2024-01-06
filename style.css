@@ -1,0 +1,98 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  padding: 0;
+  margin: 0;
+  background-color: #003349;
+  overflow: hidden;
+  border-bottom: 3px solid green;
+  width: 100%;
+  height: 80px;
+}
+ul{
+  list-style: none;
+  color: aliceblue;
+}
+li{
+  float: left;
+  margin-left: 20px;
+   
+  
+}
+ul li a{
+  font-size: 22px;
+  color: #fff;
+padding: 16px 16px;
+text-decoration: none;
+}
+ul li a:hover{
+   text-transform: uppercase;
+}
+.left{
+  text-align: right;
+}
+.icon{
+  width: 80%;
+  margin: auto;
+  padding: 16px 16px;
+}
+.text{
+  width: 100%;
+  height: 100px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.text h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.text h1 a{
+  text-decoration: none;
+}
+/* table */
+table{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid green;
+  
+}
+th{
+  border: 1px solid #003349;
+  background-color: #f6f6f6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px 10px;
+}
+span{
+  color: green;
+  
+}
+td{
+  border: 1px solid #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 8px;
+  border-left:6px solid green;
+   
+}
+/* footer */
+footer{
+  width: 100%;
+  height: 120px;
+  background-color: #003349;
+  clear: both;
+  margin-top: 260px;
+}
+footer .pie{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+
+}
+footer .pie p{
+  color: #fff;
+ padding: 20px 20px;
+
+
+}
