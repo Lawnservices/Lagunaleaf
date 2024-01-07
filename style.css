@@ -64,9 +64,10 @@ table{
 }
 th{
   border: 1px solid #003349;
-  background-color: #f6f6f6;
+  background-color: #04aa6b;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 10px 10px;
+  color: #fff;
 }
 span{
   color: green;
@@ -79,6 +80,10 @@ td{
   border-left:6px solid green;
    
 }
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+ 
 /* footer */
 footer{
   width: 100%;
